@@ -24,6 +24,6 @@ if [ "$?" = 0 ]; then
 	apt-get --assume-yes install shc
 	echo -e "\nDone! shc succesfully installed"
 else
-	echo -e "\nSomting wrong, please re run this script"
+	echo -e "\nSometing wrong, please re run this script"
 	exit 1
 fi
